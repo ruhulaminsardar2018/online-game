@@ -1,0 +1,32 @@
+@media screen and (max-width: 576px) {
+    .nav-container,
+    .we-gamer,
+    .funny-game-container,
+    .download,
+    .small-img,
+    .gamer,
+    .team-title,
+    .card {
+        flex-direction: column;
+    }
+    .nav-items-container > ul {
+        flex-direction: column;
+    }
+    .nav-items-container ul > li {
+        margin-top: 20px;
+    }
+    .follow-me {
+        padding: 20px;
+    }
+    .bannar-content {
+        flex-direction: column;
+        width: 350px;
+    }
+    .bannar-img {
+        width: 300px;
+        height: 300px;
+    }
+    .img-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
