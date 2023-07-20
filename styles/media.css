@@ -29,4 +29,7 @@
     .img-container {
         grid-template-columns: repeat(3, 1fr);
     }
+    .nav-logo-container img {
+        width: 300px;
+    }
 }
